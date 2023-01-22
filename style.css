@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.image-bookmark {
+  margin-left: 150px;
+}
+.navbar {
+  display: flex;
+  margin-top: 10px;
+}
+.features {
+  margin-left: 400px;
+  margin-right: 50px;
+  font-size: 18px;
+  color: hsl(229, 8%, 60%);
+}
+.pricing {
+  margin-right: 50px;
+  font-size: 18px;
+  color: hsl(229, 8%, 60%);
+}
+.contact {
+  margin-right: 50px;
+  font-size: 18px;
+  color: hsl(229, 8%, 60%);
+}
+.login {
+  margin-right: 50px;
+  background-color: hsl(0, 94%, 66%);
+  font-size: 18px;
+  border: none;
+  color: white;
+  padding: 5px 15px 5px 15px;
+}
+.first-section {
+  display: flex;
+}
+.first-card {
+  margin-left: 150px;
+  margin-top: 140px;
+  margin-right: 150px;
+}
+.simple-bookmark {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.simple-bookmark-paragraph {
+  font-size: 18px;
+  color: hsl(229, 8%, 60%);
+}
+.simple-bookmark-button {
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  padding: 10px 15px 10px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.simple-bookmark-button1 {
+  background-color: hsl(229, 8%, 60%);
+  color: black;
+  padding: 10px 15px 10px 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.simple-bookmark-image {
+  margin-top: 50px;
+}
+/* body{
+    position: relative;
+} */
+.first---section {
+  width: 400px;
+  height: 200px;
+  background-color: hsl(231, 69%, 60%);
+  border-radius: 35%;
+  position: absolute;
+  top: 300px;
+  /* right: -100px; */
+  /* z-index: 1; */
+}
+.image----image {
+  /* z-index: 0; */
+  position: relative;
+}
+/* .first-card-image{
+position: absolute;
+top:100px ;
+    right: 100px;
+}   */
+
+.features--features {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.features-paragraph {
+  font-size: 18px;
+  color: hsl(229, 8%, 60%);
+}
+.content---content {
+  display: flex;
+  margin-left: 150px;
+}
+
+.tabs--button {
+  display: block;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: hsl(229, 8%, 60%);
+  outline: none;
+  cursor: pointer;
+}
+.tabs--button:hover {
+  color: hsl(0, 94%, 66%);
+}
+.tabs--button:active {
+  color: black;
+}
+
+.tabs--button--active {
+  border-bottom: 2px solid hsl(0, 94%, 66%);
+  padding: 20px;
+}
+.tabs--sidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  margin-left: 395px;
+  margin-right: 395px;
+  cursor: pointer;
+  opacity: 0.2;
+}
+#special-special {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.bookmark-one-click {
+  margin-left: 100px;
+  padding-top: 120px;
+}
+.one-click-paragraph {
+  color: hsl(229, 8%, 60%);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.one-click-button {
+  padding: 10px 15px 10px 15px;
+  color: white;
+  background-color: hsl(231, 69%, 60%);
+  font-size: 18px;
+  border: none;
+}
+.tabs--content {
+  display: none;
+}
+.tabs--content--active {
+  display: flex;
+}
+.tabs--content > :first-child {
+  margin-top: 50px;
+}
+.extension {
+  text-align: center;
+  margin-top: 150px;
+}
+.extension-first-line {
+  margin-bottom: 10px;
+}
+.extension-paragraph {
+  font-size: 18px;
+  color: hsl(229, 8%, 60%);
+}
+.dots {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.chrome-button,
+.firefox-button,
+.opera-button {
+  padding: 10px 15px 10px 15px;
+  color: white;
+  background-color: hsl(231, 69%, 60%);
+  font-size: 18px;
+  border: none;
+}
+.extension---chrome,
+.extension---firefox,
+.extension---opera {
+  width: 280px;
+  height: 320px;
+  box-shadow: inset 0 0 10px #e7e3e3;
+  text-align: center;
+  border-radius: 25px;
+}
+.extension-chrome,
+.extension-firefox,
+.extension-opera {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.chrome-paragraph,
+.firefox-paragraph,
+.opera-paragraph {
+  color: hsl(229, 8%, 60%);
+  font-size: 18px;
+}
+.extension---firefox {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 100px;
+}
+.extension-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.extension---opera {
+  margin-top: 200px;
+}
+.fifth-section {
+  background-color: hsl(231, 69%, 60%);
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+.already-joined {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-size: 18px;
+}
+.already-heading {
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+.input {
+  padding: 15px 75px 15px 15px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  margin-bottom: 70px;
+}
+.already-button {
+  background-color: hsl(0, 94%, 66%);
+  font-size: 18px;
+  border: none;
+  color: white;
+  padding: 12px 15px 12px 15px;
+  border-radius: 5px;
+}
+.last-section {
+  background-color: hsl(229, 31%, 21%);
+  color: white;
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.last-features:hover {
+  color: hsl(0, 94%, 66%);
+}
+.last-pricing:hover {
+  color: hsl(0, 94%, 66%);
+}
+.last-contact:hover {
+  color: hsl(0, 94%, 66%);
+}
+.last-twitter:hover {
+  background-color: hsl(0, 94%, 66%);
+}
+.last-facebook:hover {
+  background-color: hsl(0, 94%, 66%);
+}
+.last-bookmark {
+  margin-left: 150px;
+}
+.last-contact {
+  padding-right: 450px;
+}
+.last-features {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.last-pricing {
+  padding-right: 50px;
+}
+.last-facebook {
+  padding-right: 30px;
+}

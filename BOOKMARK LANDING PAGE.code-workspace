@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../SWITCHABLE TABS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BOOKMARK LANDING PAGE",
+		"liveServer.settings.port": 5501
+	}
+}
